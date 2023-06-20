@@ -8,6 +8,10 @@ public enum TipoMazzo {
     private String[] semi;
     private IValoreCarta[] valori;
 
+    /**
+     * Represents card deck types in a card game.
+     * Includes ITALIANO and FRANCESE card deck types with unique characteristics.
+     */
     TipoMazzo(String nome, String[] semi, IValoreCarta[] valori) {
         this.nome = nome;
         this.semi = semi;

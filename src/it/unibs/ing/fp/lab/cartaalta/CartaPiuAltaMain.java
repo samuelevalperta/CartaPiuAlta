@@ -53,6 +53,11 @@ public class CartaPiuAltaMain {
         System.out.println(MESS_FINE);
     }
 
+    /**
+     * Executes a CartaPiuAlta game using the specified mazzo type.
+     *
+     * @param tipo The type of the mazzo (Italiano or Francese) that determines which cards are in play
+     */
     private static void gioca(TipoMazzo tipo)
     {
         System.out.println(MESS_INIZIO);
@@ -77,6 +82,14 @@ public class CartaPiuAltaMain {
         } while(continua);
     }
 
+    /**
+     * Prints the result of the game round. Displays a message based on the outcome of a given game (win, lose, or draw) and
+     * shows the updated credit balance.
+     *
+     * @param partita   The ongoing Partita object containing all the game information
+     * @param esito     The outcome of the game (VINTA, PERSA, or PARI)
+     * @param scommessa The amount of money bet during the round
+     * 
     private static void stampaEsito(Partita partita, EsitoScommessa esito, int scommessa) {
         String msg = "";
         switch(esito) {

@@ -1,5 +1,9 @@
 package it.unibs.ing.fp.lab.cartaalta;
 
+/**
+ * Represents the values of Italian playing cards.
+ * Implements the {@link IValoreCarta} interface to provide card value and name retrieval functionality.
+ */
 public enum ValoreCarteItaliane implements IValoreCarta{
     ASSO(11, "ASSO"),
     DUE(2, "DUE"),
@@ -14,6 +18,12 @@ public enum ValoreCarteItaliane implements IValoreCarta{
     private String nome;
     private int valore;
 
+    /**
+     * Constructor for the ValoreCarteItaliane enum.
+     *
+     * @param valore the integer value associated with the card
+     * @param nome the display name for the card
+     */
     ValoreCarteItaliane(int valore, String nome) {
         this.valore = valore;
         this.nome = nome;
