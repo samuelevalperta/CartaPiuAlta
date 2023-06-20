@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>it.unibs.ing.fp.lab.cartaalta</OriginalElement>
+  <nodes>
+    <node x="-14.26908997633953" y="1102.5588460423055">it.unibs.ing.fp.lab.cartaalta.EsitoScommessa</node>
+    <node x="177.71889020253565" y="464.2903224078941">it.unibs.ing.fp.lab.cartaalta.Mazzo</node>
+    <node x="-103.79924575259156" y="443.1751489967232">it.unibs.ing.fp.lab.cartaalta.PartitaTest</node>
+    <node x="691.8443782166945" y="496.94620519042013">it.unibs.ing.fp.lab.cartaalta.CartaTest</node>
+    <node x="687.6647382859553" y="222.124724014827">it.unibs.ing.fp.lab.cartaalta.ValoreCarteFrancesi</node>
+    <node x="-63.612176516000275" y="-13.492541561603474">it.unibs.ing.fp.lab.cartaalta.Partita</node>
+    <node x="-76.3725403810363" y="783.85408332057">it.unibs.ing.fp.lab.cartaalta.TipoMazzo</node>
+    <node x="300.21526751869885" y="772.2246927937739">it.unibs.ing.fp.lab.cartaalta.Carta</node>
+    <node x="577.5074696097846" y="813.4174466531778">it.unibs.ing.fp.lab.cartaalta.CartaPiuAltaMain</node>
+    <node x="600.6360313006005" y="46.6209974025802">it.unibs.ing.fp.lab.cartaalta.IValoreCarta</node>
+    <node x="440.12973370221215" y="636.8100938801678">it.unibs.ing.fp.lab.cartaalta.MazzoFrancese</node>
+    <node x="200.93178941212113" y="648.6410177598144">it.unibs.ing.fp.lab.cartaalta.MazzoItaliano</node>
+    <node x="362.0792942292118" y="194.17224495601525">it.unibs.ing.fp.lab.cartaalta.ValoreCarteItaliane</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.unibs.ing.fp.lab.cartaalta.ValoreCarteFrancesi" target="it.unibs.ing.fp.lab.cartaalta.IValoreCarta" relationship="REALIZATION">
+      <point x="2.617140446545818E-4" y="-104.999724014827" />
+      <point x="824.165" y="164.0" />
+      <point x="674.636" y="164.0" />
+      <point x="-3.1300600539907464E-5" y="43.5000025974198" />
+    </edge>
+    <edge source="it.unibs.ing.fp.lab.cartaalta.MazzoFrancese" target="it.unibs.ing.fp.lab.cartaalta.Mazzo" relationship="GENERALIZATION">
+      <point x="2.6629778784581504E-4" y="-31.500093880167753" />
+      <point x="527.13" y="607.0" />
+      <point x="382.719" y="607.0" />
+      <point x="1.0979746434713888E-4" y="55.99967759210591" />
+    </edge>
+    <edge source="it.unibs.ing.fp.lab.cartaalta.MazzoItaliano" target="it.unibs.ing.fp.lab.cartaalta.Mazzo" relationship="GENERALIZATION">
+      <point x="2.1058787885408492E-4" y="-31.500017759814455" />
+      <point x="280.432" y="607.0" />
+      <point x="382.719" y="607.0" />
+      <point x="1.0979746434713888E-4" y="55.99967759210591" />
+    </edge>
+    <edge source="it.unibs.ing.fp.lab.cartaalta.ValoreCarteItaliane" target="it.unibs.ing.fp.lab.cartaalta.IValoreCarta" relationship="REALIZATION">
+      <point x="-2.9422921181776474E-4" y="-105.00024495601525" />
+      <point x="494.579" y="164.0" />
+      <point x="674.636" y="164.0" />
+      <point x="-3.1300600539907464E-5" y="43.5000025974198" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5020016012810248" showDependencies="false" x="478.4999999999999" y="610.4999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
